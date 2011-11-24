@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  property_id: 1
+  user_id: 1
+  start: 2011-11-24
+  end: 2011-11-24
+  description: MyText
+
+two:
+  property_id: 1
+  user_id: 1
+  start: 2011-11-24
+  end: 2011-11-24
+  description: MyText
