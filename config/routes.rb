@@ -1,8 +1,12 @@
 Sublettuce::Application.routes.draw do
-  resources :posts
+  root :to => "posts#index"
+  
+  match "/auth/facebook/callback" => "sessions#create"
+  match "/signout" => "sessions#destroy", :as => :signout
 
-  resources :properties
+  resources :posts, :properties, :users
 
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

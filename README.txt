@@ -1,0 +1,1 @@
+Sublettuce is a social utility that helps connect people who need temporary housing with people who want to sublet.
